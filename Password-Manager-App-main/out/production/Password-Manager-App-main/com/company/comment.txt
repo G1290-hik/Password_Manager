@@ -1,0 +1,21 @@
+         /*String url="jdbc:mysql://127.0.0.1:3306/users";
+        String uname="root";
+        String pass="Ragul@16";
+        String query="select sname from sinUp_reg";
+        try {
+            //Class.forName("com.mysql.jdbc.Driver");
+            Connection con=DriverManager.getConnection(url,uname,pass);
+            Statement st=con.createStatement();
+            ResultSet rs=st.executeQuery(query);
+            while(rs.next()) {
+                //       System.out.println("DataBAse connected");
+                String name=rs.getString("sname");
+                System.out.println(name);
+            }
+            st.close();
+            con.close();
+        }
+        catch(Exception ae) {
+            System.out.println("Database not connected");
+    }
+    */
